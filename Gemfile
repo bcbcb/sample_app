@@ -11,7 +11,7 @@ group :development, :test do
   gem 'guard-rspec', '1.2.1'
   gem 'guard-spork', github: 'guard/guard-spork'
   gem 'spork', '0.9.2'
-  gem 'better_errors'
+  # gem 'better_errors'
   gem 'annotate', '2.5.0'
 end
 
@@ -29,4 +29,5 @@ group :test do
   gem 'capybara', '1.1.2'
   gem 'rb-inotify', '0.8.8'
   gem 'libnotify', '0.5.9'
+  gem 'factory_girl_rails', '4.1.0'
 end
